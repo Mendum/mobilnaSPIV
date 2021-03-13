@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         textTelNum = (EditText) findViewById(R.id.textTelNum);
         textTaxID = (EditText) findViewById(R.id.textTaxID);
         textBirthDate = (EditText) findViewById(R.id.textBirthDate);
+        buttonRegister= (Button)findViewById(R.id.buttonRegister);
 
         buttonRegister.setOnClickListener(new View.OnClickListener() {
 
